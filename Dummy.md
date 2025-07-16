@@ -97,17 +97,17 @@ indicating a high true positive rate and a low false positive rate; the larger t
 -	Low risk of overfitting (train ≈ test accuracy)
 -	Interpretable (important for regulatory and business explanations)
   
-b)	Support Vector Machine — Also Strong, but High Cost
-•	Excellent accuracy (90.08%), nearly identical to Logistic Regression
-•	Extremely high train time (343 seconds vs 0.24s)
-c)	K-Nearest Neighbors — Good Accuracy, but Not Scalable
-•	Simple, intuitive, no training time
-•	Slightly worse test accuracy (89.33%)
-•	Inefficient for large-scale prediction (slow at test time)
-With small datasets KNN is ok for prototyping
-d) Decision Tree — Overfitting, Not Reliable
-•	Train accuracy too high (99.47%) → classic overfitting
-•	Worst test accuracy (84.07%)
+### B)	Support Vector Machine — Also Strong, but High Cost
+- Excellent accuracy (90.08%), nearly identical to Logistic Regression
+-	Extremely high train time (343 seconds vs 0.24s)
+### C)	K-Nearest Neighbors — Good Accuracy, but Not Scalable
+-	Simple, intuitive, no training time
+-	Slightly worse test accuracy (89.33%)
+-	Inefficient for large-scale prediction (slow at test time)
+** With small datasets KNN is ok for prototyping
+### D) Decision Tree — Overfitting, Not Reliable
+-	Train accuracy too high (99.47%) → classic overfitting
+-	Worst test accuracy (84.07%)
 
 
 
