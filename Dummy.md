@@ -75,5 +75,45 @@ Models used:
 
 <img width="1574" height="902" alt="image" src="https://github.com/user-attachments/assets/b39b3e64-123c-4863-8b15-4b78df0f02e9" />
 
+/*Opted out Plotting SVM: Due to the time it takes for the processor to process the large data set.*//
+## Confusion Matrix
+
+<img width="1128" height="891" alt="image" src="https://github.com/user-attachments/assets/1e369c4c-84cc-4da4-ab60-ebb55e946dea" />
+
+<img width="1123" height="890" alt="image" src="https://github.com/user-attachments/assets/09e7b88b-3b41-4790-904d-c73f4b05a251" />
+
+<img width="1125" height="886" alt="image" src="https://github.com/user-attachments/assets/6798ff57-59c2-41f4-b573-2696c2f9a539" />
+
+## ROC Curve Comparison:
+The overall performance of a classifier, summarized over all possible classification thresholds, is given by the area under the ROC curve. An ideal ROC curve will hug the top left corner, 
+indicating a high true positive rate and a low false positive rate; the larger the AUC( Area Under) the better the classifier.
+
+<img width="1227" height="908" alt="image" src="https://github.com/user-attachments/assets/7c1c0a70-3c6b-4525-82a8-1178a9be3c35" />
+
+## 6.	Recommendations and Deployment Guidelines
+      a)	Logistic Regression — Recommended (Best Balance of Performance + Efficiency)
+         - Highest Test Accuracy (90.13%)
+•	Very fast training time
+•	Low risk of overfitting (train ≈ test accuracy)
+•	Interpretable (important for regulatory and business explanations)
+b)	Support Vector Machine — Also Strong, but High Cost
+•	Excellent accuracy (90.08%), nearly identical to Logistic Regression
+•	Extremely high train time (343 seconds vs 0.24s)
+c)	K-Nearest Neighbors — Good Accuracy, but Not Scalable
+•	Simple, intuitive, no training time
+•	Slightly worse test accuracy (89.33%)
+•	Inefficient for large-scale prediction (slow at test time)
+With small datasets KNN is ok for prototyping
+d) Decision Tree — Overfitting, Not Reliable
+•	Train accuracy too high (99.47%) → classic overfitting
+•	Worst test accuracy (84.07%)
+
+
+
+
+
+
+
+
 
 
