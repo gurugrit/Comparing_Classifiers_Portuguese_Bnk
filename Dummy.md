@@ -108,7 +108,20 @@ indicating a high true positive rate and a low false positive rate; the larger t
 ### D) Decision Tree — Overfitting, Not Reliable
 -	Train accuracy too high (99.47%) → classic overfitting
 -	Worst test accuracy (84.07%)
+# Recommendation Table
+** Use of Decision Tree is ruled out may be Random Forest or Gradient Boosting mnaybe a better option.
+<img width="1186" height="382" alt="image" src="https://github.com/user-attachments/assets/5033c0c4-9499-4f76-8e79-cb4f67a4176e" />
 
+# In Conclusion
+Answering our key business question Was the Prediction Goal was met? : 
+ The models can reasonably predict y = 'yes' or 'no' for new clients.
+ This was based on…
+ Logistic Regression, KNN, Decision Tree, and SVM models.
+Best Model being : Logistic Regression which gave us:
+•	Test Accuracy:  ~90%
+•	Train Accuracy: ~90%
+•	Reasonable F1-Score (if computed), especially for an imbalanced dataset.
+In total, our model can predict term deposit subscription using available client, campaign, and economic data with high accuracy and practical reliability.
 
 
 
