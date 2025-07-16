@@ -52,3 +52,23 @@ The Folder Structure for this Project is as below under the repository: "Compari
 -	nr.employed: number of employees - quarterly indicator (numeric)
 #### Output variable (desired target):
 -	y - has the client subscribed a term deposit? (binary: 'yes','no')
+## 3. Data Preparation
+- Replace 'unknown' with NaN
+- Drop duration (leaks target)
+- Convert categorical → one-hot encoding
+- Scale/normalize numeric features
+- Split into training and test sets
+## 4. Modeling
+Models used:
+- Logistic Regression
+- K-Nearest Neighbors
+- Decision Tree
+- Support Vector Machine
+
+#### Baseline Accuracy: `88.73%`
+
+## Model Validation and Comparison Summary
+
+<img width="1165" height="717" alt="image" src="https://github.com/user-attachments/assets/b83af9bb-5079-461d-88b7-10e94704b24d" />
+
+
