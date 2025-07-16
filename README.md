@@ -24,5 +24,3 @@ The Folder Structure for this Project is as below under the repository: "Compari
 ## 2. Data Understanding
 ### Data Description: The dataset contains 41188 entires with attributes such as:
 age  job  marital  education  default  housing  loan  contact  month  day_of_week  duration  campaign  pdays  previous  poutcome  emp.var.rate  cons.price.idx  cons.conf.idx  euribor3m  nr.employed  y
-
-<img width="143" height="610" alt="image" src="https://github.com/user-attachments/assets/d8d7b429-28fd-4ec6-ac61-ca4af2950285" />
