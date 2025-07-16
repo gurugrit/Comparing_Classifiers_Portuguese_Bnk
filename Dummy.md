@@ -67,8 +67,13 @@ Models used:
 
 #### Baseline Accuracy: `88.73%`
 
-## Model Validation and Comparison Summary
+## 5. Model Validation and Comparison Summary
 
 <img width="1165" height="717" alt="image" src="https://github.com/user-attachments/assets/b83af9bb-5079-461d-88b7-10e94704b24d" />
+
+## Visualizations
+
+<img width="1574" height="902" alt="image" src="https://github.com/user-attachments/assets/b39b3e64-123c-4863-8b15-4b78df0f02e9" />
+
 
 
