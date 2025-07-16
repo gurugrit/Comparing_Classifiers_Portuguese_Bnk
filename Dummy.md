@@ -91,11 +91,12 @@ indicating a high true positive rate and a low false positive rate; the larger t
 <img width="1227" height="908" alt="image" src="https://github.com/user-attachments/assets/7c1c0a70-3c6b-4525-82a8-1178a9be3c35" />
 
 ## 6.	Recommendations and Deployment Guidelines
-      a)	Logistic Regression — Recommended (Best Balance of Performance + Efficiency)
-         - Highest Test Accuracy (90.13%)
-•	Very fast training time
-•	Low risk of overfitting (train ≈ test accuracy)
-•	Interpretable (important for regulatory and business explanations)
+### A)	Logistic Regression — Recommended (Best Balance of Performance + Efficiency)
+- Highest Test Accuracy (90.13%)
+- Very fast training time
+-	Low risk of overfitting (train ≈ test accuracy)
+-	Interpretable (important for regulatory and business explanations)
+  
 b)	Support Vector Machine — Also Strong, but High Cost
 •	Excellent accuracy (90.08%), nearly identical to Logistic Regression
 •	Extremely high train time (343 seconds vs 0.24s)
