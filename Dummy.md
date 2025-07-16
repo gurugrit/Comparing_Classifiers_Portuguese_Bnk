@@ -22,10 +22,10 @@ The Folder Structure for this Project is as below under the repository: "Compari
 ## 1. Business Understanding
 ### Objective: Is to predict whether a bank client will subscribe to a term deposit based on information obtained during direct marketing campaigns like phone calls, along with demographic and economic context data.
 ### Key Business Questions:
-•	Is to predict whether a bank client will subscribe to a term deposit based on information obtained during direct marketing campaigns like phone calls this along with demographic and economic context data.
+-	Is to predict whether a bank client will subscribe to a term deposit based on information obtained during direct marketing campaigns like phone calls this along with demographic and economic context data.
 ## 2. Data Understanding
 ### Data Description: The dataset contains 41188 entires with 21 Column-attributes/Features such as:
-•	age (numeric)
+-	age (numeric)
 •	job - type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
 •	marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
 •	education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')
